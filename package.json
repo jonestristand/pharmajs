@@ -1,0 +1,28 @@
+{
+  "name": "pharmajs",
+  "version": "0.1.0",
+  "description": "Prescription parsing tool for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "pegjs ./grammar/pharmajs-parser.pegjs ./pharmajs-parser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonestristand/pharmajs.git"
+  },
+  "author": "Tristan Jones <jones.tristand@gmail.com> (http://www.tdjones.ca)",
+  "license": "The Unlicense",
+  "bugs": {
+    "url": "https://github.com/jonestristand/pharmajs/issues"
+  },
+  "homepage": "https://github.com/jonestristand/pharmajs",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-peg": "^0.2.0",
+    "gulp-uglify": "^1.5.3",
+    "mocha": "^2.5.3"
+  }
+}
