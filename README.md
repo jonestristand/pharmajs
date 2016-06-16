@@ -33,8 +33,8 @@ var pharmajs = require('pharmajs');
 var rx1 = 'Levophed 0.1 mcg/kg/min IV';
 var rx2 = 'Cefazolin 1g IV q24h';
 
-var rx1Parsed = pharmajs.parse(rx1);
-var rx2Parsed = pharmajs.parse(rx2);
+var rx1Parsed = pharmajs.parseRx(rx1);
+var rx2Parsed = pharmajs.parseRx(rx2);
 ````
 
 ## Tests
@@ -50,4 +50,5 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Release History
 
+* 0.1.1 Reversioned to keep git and npm in sync
 * 0.1.0 Initial release
